@@ -1,0 +1,11 @@
+{
+
+    "autoload": {
+        "psr-4": {
+            "Clases1\\": "C:/xampp/htdocs/proyecto/Clases"
+        }
+    },
+    "require": {
+        "smarty/smarty": "^3.1"
+    }
+}

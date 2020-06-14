@@ -1,0 +1,79 @@
+img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    float: left;
+    padding-bottom: 50px;
+}
+html{
+    min-height: 100%;
+}
+body{
+    background-image: url("./imagenFondo/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+textarea{
+    display:inline-block;
+    padding-right: 100px;
+}
+#fieldIndex {
+    width: 300px;
+    height:130px;
+    margin-left: 38%;
+    background-color: white;
+}
+#fieldUser {
+    width: 350px;
+    margin-left: 38%;
+    background-color: white;
+}
+#frasesPHP input[type="submit"], #pictoFrases input[type="submit"], #fieldIndex input, #fieldUser input, #formUser input[type="submit"]{
+    display:inline-block;
+}
+#fieldIndex input, #fieldUser input ,#formUser input[type="submit"]{
+    margin:8px 0;
+}
+div {
+    display:block;
+    left: 0px;
+    margin-bottom: 150px;
+}
+h1{
+    font-family: Verdana;
+    color: #F416FF;
+    font-style: italic
+}
+table {
+    width: 25%;
+    height: 25%;
+    border: 1px solid #000;
+    background: white;
+    margin: 50px;
+}
+th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+}
+#pictotraductorPHP input[type="submit"]{
+    bottom: 0px;
+    float: right;
+    margin: 20px;
+    margin-top: -40px;
+}
+#pictotraductorProfe input[type="submit"]{
+    float: right;
+    margin: 20px;
+}
+#fieldIndex span, #fieldUser span{
+    color:#120EF4;
+}
+#fieldIndex legend, #fieldUser legend{
+    color:#F40E15;
+}
+#msgResultado{
+    color: red;
+}
